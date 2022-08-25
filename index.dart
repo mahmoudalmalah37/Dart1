@@ -84,20 +84,18 @@ void main()
 //     print(t);
 //   };
 //--------------------
-// int x = 2;
-// int y = 3;
-//
-// String s = x > y ? '$x is true' : '$y is fulse';
-// print(s);
+int x = 2;
+int y = 3;
+
+String s = x > y ? '$x is true' : '$y is fulse';
+print(s);
 //----------------------
 // for(var i = 0; i<=20; i++){
 //   print(20);
 // }
 //-----------------------
 // print(addiy(5, 7));
-//------------------------
-
-
+//-------------------
 }
 // int addiy(int x,int y)
 // {

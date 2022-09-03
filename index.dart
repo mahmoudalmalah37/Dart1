@@ -84,11 +84,11 @@ void main()
 //     print(t);
 //   };
 //--------------------
-int x = 2;
-int y = 3;
-
-String s = x > y ? '$x is true' : '$y is fulse';
-print(s);
+// int x = 2;
+// int y = 3;
+//
+// String s = x > y ? '$x is true' : '$y is fulse';
+// print(s);
 //----------------------
 // for(var i = 0; i<=20; i++){
 //   print(20);
@@ -96,8 +96,31 @@ print(s);
 //-----------------------
 // print(addiy(5, 7));
 //-------------------
+
+Studint S1 = Studint('mahmoud', 10.4, 10);
+S1.printAll();
 }
-// int addiy(int x,int y)
-// {
-//   return x + y;
-// }
+class Studint
+{
+  String? name;
+  double? dbd;
+  int? age;
+
+  // Studint(String name,double dbd, int age)
+  // {
+  //   this.name = name;
+  //   this.dbd = dbd;
+  //   this.age = age;
+  // }
+
+  Studint(this.name,this.dbd,this.age);
+
+  void printAll()
+  {
+    print(name);
+    print(dbd);
+    print(age);
+  }
+
+
+}

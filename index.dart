@@ -1,5 +1,7 @@
 void main()
 {
+
+//-------------------------
 // int m = 1;
 // int d = 20;
 // print(d+m);
@@ -97,30 +99,49 @@ void main()
 // print(addiy(5, 7));
 //-------------------
 
-Studint S1 = Studint('mahmoud', 10.4, 10);
-S1.printAll();
+// Studint S1 = Studint('mahmoud', 10.4, 10);
+// S1.printAll();
+
+//------------------
+//   talent t = talent('actor', 'wafik');
+//   t.name;
 }
-class Studint
-{
-  String? name;
-  double? dbd;
-  int? age;
+// class Studint
+// {
+//   String? name;
+//   double? dbd;
+//   int? age;
+//
+//   // Studint(String name,double dbd, int age)
+//   // {
+//   //   this.name = name;
+//   //   this.dbd = dbd;
+//   //   this.age = age;
+//   // }
+//
+//   Studint(this.name,this.dbd,this.age);
+//
+//   void printAll()
+//   {
+//     print(name);
+//     print(dbd);
+//     print(age);
+//   }
+//--------------------------------
+// abstract class user{
+//   String? name;
+//
+//   user(this.name);
+// }
+//
+// class talent extends user{
+//   String? talent1;
+//
+//   talent(this.talent1, String name) : super(name);
+//
+//   void printData(){
+//     print(super.name);
+//     print(talent1);
+//   }
+// }
 
-  // Studint(String name,double dbd, int age)
-  // {
-  //   this.name = name;
-  //   this.dbd = dbd;
-  //   this.age = age;
-  // }
-
-  Studint(this.name,this.dbd,this.age);
-
-  void printAll()
-  {
-    print(name);
-    print(dbd);
-    print(age);
-  }
-
-
-}
